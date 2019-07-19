@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+          "src": "app.js",
+          "use": "@now/node",
+          "config": {
+            "includeFiles": [
+              "config.default.js",
+              "views/**",
+              "models/**",
+              "public/**",
+              "routes/**"
+            ]
+          }
+        }
+  ]
+}
